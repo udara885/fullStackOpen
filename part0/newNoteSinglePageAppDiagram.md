@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
 participant browser
 participant server
@@ -8,3 +9,4 @@ participant server
     server-->>browser: 201 Created
     Note right of browser: Note added to the list without browser reload
     deactivate server
+```
